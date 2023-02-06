@@ -1,0 +1,97 @@
+
+ compress --- Pass ---  02/02/2023 16:52:36
+
+ None --- Col.compress() missing 1 required positional argument: 'file_names' ---  02/02/2023 16:20:58
+ None --- None ---  02/02/2023 16:28:07
+ None --- None ---  02/02/2023 16:30:37
+ None --- None ---  02/02/2023 16:32:50
+ None --- None ---  02/02/2023 16:33:57
+ compress --- Pass ---  02/02/2023 16:35:49
+ compress --- Pass ---  02/02/2023 16:37:35
+ compress --- Pass ---  02/02/2023 16:37:56
+ compress --- can only concatenate str (not "list") to str ---  02/02/2023 16:38:39
+ compress --- can only concatenate str (not "list") to str ---  02/02/2023 16:39:12
+ compress --- can only concatenate str (not "list") to str ---  02/02/2023 16:40:51
+ compress --- can only concatenate str (not "list") to str ---  02/02/2023 16:42:42
+ compress --- ["['comp.py'", "'simp.py']"] ---  02/02/2023 16:45:43
+ compress --- ["'comp.py'", "'simp.py'"] ---  02/02/2023 16:46:09
+ compress --- 'NoneType' object has no attribute 'split' ---  02/02/2023 16:46:54
+ compress --- 'NoneType' object has no attribute 'split' ---  02/02/2023 16:47:04
+ compress --- ['comp.py', 'simp.py'] ---  02/02/2023 16:47:58
+ compress --- Pass ---  02/02/2023 16:48:38
+ compress --- Passcomp.py,simp.py ---  02/02/2023 16:49:34
+ compress --- Pass ---  02/02/2023 16:50:00
+ compress --- assert True == False
+ +  where True = <bound method Col.compress of <tools.col.Col object at 0x0000025AB095CBE0>>(['comp.py', 'simp.py'])
+ +    where <bound method Col.compress of <tools.col.Col object at 0x0000025AB095CBE0>> = <tools.col.Col object at 0x0000025AB095CBE0>.compress
+ +    and   ['comp.py', 'simp.py'] = <built-in method split of str object at 0x0000025AB09497F0>(',')
+ +      where <built-in method split of str object at 0x0000025AB09497F0> = 'comp.py,simp.py'.split
+ +        where 'comp.py,simp.py' = <function getenv at 0x0000025AADBF0670>('FILES')
+ +          where <function getenv at 0x0000025AADBF0670> = os.getenv ---  02/02/2023 16:50:52 
+ compress --- Pass ---  02/02/2023 16:53:00 
+ compress --- Pass ---  02/02/2023 16:56:27 
+ compress --- Pass ---  02/02/2023 16:56:51 
+ compress --- Pass ---  02/02/2023 17:01:20 
+ compress --- Pass ---  02/02/2023 17:03:41 
+ compress --- Pass ---  02/02/2023 17:03:47 
+ compress --- 'NoneType' object has no attribute 'write' ---  02/02/2023 17:04:55 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:06:00 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:06:55 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:08:07 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:08:30 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:10:07 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:10:28 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:11:14 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:11:39 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:13:14 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:13:23 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:14:11 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:15:29 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:29:34 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:32:32 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:32:46 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:33:18 
+ compress --- Pass ---  02/02/2023 17:33:50 
+ compress --- unsupported operand type(s) for +: 'NoneType' and 'str' ---  02/02/2023 17:35:08 
+ compress --- Pass ---  02/02/2023 17:37:06 
+ Sum of digits --- Pass ---  02/02/2023 17:54:45 
+ Sum of digits --- You must use at least 1 Simp function ---  02/02/2023 17:55:36 
+ Sum of digits --- assert None == 10
+ +  where None = <bound method Comp.sum_of_digits of <tools.numbers.comp.Comp object at 0x000001B2085B53C0>>(1234)
+ +    where <bound method Comp.sum_of_digits of <tools.numbers.comp.Comp object at 0x000001B2085B53C0>> = <tools.numbers.comp.Comp object at 0x000001B2085B53C0>.sum_of_digits
+ +    and   1234 = int('1234')
+ +      where '1234' = <function getenv at 0x000001B205840670>('ARG_SUM_OF_DIGITS')
+ +        where <function getenv at 0x000001B205840670> = os.getenv
+ +  and   10 = int('10')
+ +    where '10' = <function getenv at 0x000001B205840670>('RESULT_SUM_OF_DIGITS')
+ +      where <function getenv at 0x000001B205840670> = os.getenv ---  02/02/2023 17:55:36 
+ adding --- invalid literal for int() with base 10: 's' ---  02/02/2023 18:11:55 
+ adding --- invalid literal for int() with base 10: 's' ---  02/02/2023 18:13:18 
+ adding --- Pass ---  02/02/2023 18:13:29 
+ Sum of digits --- Pass ---  02/02/2023 18:14:36 
+ is_pal --- You must use at least 1 Simp function ---  02/02/2023 18:15:42 
+ is_pal --- assert None == True
+ +  where None = <bound method Comp.is_pal of <tools.numbers.comp.Comp object at 0x00000213BAB15360>>(121)
+ +    where <bound method Comp.is_pal of <tools.numbers.comp.Comp object at 0x00000213BAB15360>> = <tools.numbers.comp.Comp object at 0x00000213BAB15360>.is_pal
+ +    and   121 = int('121')
+ +      where '121' = <function getenv at 0x00000213B7DA0670>('ARG_IS_PAL')
+ +        where <function getenv at 0x00000213B7DA0670> = os.getenv ---  02/02/2023 18:15:42 
+ is_pal --- Pass ---  02/02/2023 18:16:12 
+ compress --- Pass ---  02/02/2023 18:17:43 
+ compress --- 'NoneType' object has no attribute 'write' ---  02/02/2023 18:18:38 
+ compress --- 'NoneType' object has no attribute 'write' ---  02/02/2023 18:19:37 
+ compress --- 'NoneType' object has no attribute 'write' ---  02/02/2023 18:19:50 
+ compress --- 'NoneType' object has no attribute 'write' ---  02/02/2023 18:21:00 
+ compress --- Pass ---  02/02/2023 18:21:42 
+ compress --- Pass ---  02/02/2023 18:23:10 
+ compress --- module 'os' has no attribute 'get' ---  02/02/2023 18:23:47 
+ compress --- Pass ---  02/02/2023 18:24:02 
+ compress --- Pass ---  05/02/2023 13:53:51 
+ adding --- Pass ---  05/02/2023 13:55:57 
+ subtracting --- Pass ---  05/02/2023 13:57:22 
+ Sum of digits --- Pass ---  05/02/2023 14:01:08 
+ Sum of digits --- Pass ---  05/02/2023 14:17:12 
+ is_pal --- Pass ---  05/02/2023 14:17:20 
+ Sum of digits --- Pass ---  05/02/2023 14:29:41 
+ is_pal --- Pass ---  05/02/2023 14:29:45 
+ adding --- Pass ---  05/02/2023 14:51:27 
